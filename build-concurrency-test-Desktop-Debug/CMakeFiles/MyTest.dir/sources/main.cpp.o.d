@@ -1,5 +1,5 @@
-CMakeFiles/concurrency-test.dir/main.cpp.o: \
- /home/liam/repos/concurrency-test/concurrency-test/main.cpp \
+CMakeFiles/MyTest.dir/sources/main.cpp.o: \
+ /home/liam/repos/concurrency-test/concurrency-test/sources/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/c++/12/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -138,4 +138,4 @@ CMakeFiles/concurrency-test.dir/main.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/liam/repos/concurrency-test/concurrency-test/helloWorld.hpp
+ /home/liam/repos/concurrency-test/concurrency-test/sources/helloWorld.cpp

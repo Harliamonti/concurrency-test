@@ -9,3 +9,6 @@ add_executable(concurrency-test main.cpp)
 
 install(TARGETS concurrency-test
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
+
+#file(GLOB SRCS "${CMAKE_SOURCE_DIR}/sources/*.cpp")
+#add_executable(MyTest ${SRCS})
