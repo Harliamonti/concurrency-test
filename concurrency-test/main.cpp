@@ -1,16 +1,23 @@
 #include <iostream>
 #include <thread>
+#include <vector>
+
 #include "helloWorld.cpp"
+
+void modOdds(std::vector<int> &vec) {
+    for (auto it{ vec.begin() }; it !=vec.end(); it++) {
+        if(*it % 2 == 0) *it = 0;
+    }
+}
 
 int main()
 {
-    std::thread foo(helloWorld);
-    std::thread test(goodByeWorld);
+    std::vector<int> v{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
 
-    for (size_t i{}; i < 5; i++) {
-        std::cout << "Main" << std::endl;
+//    std::thread foo(modOdds, v);
+    modOdds(v);
+
+    for (auto it : v) {
+        std::cout << it << std::endl;
     }
-
-    test.join();
-    foo.join();
 }
