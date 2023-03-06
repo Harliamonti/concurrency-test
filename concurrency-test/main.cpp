@@ -1,17 +1,6 @@
 #include <iostream>
 #include <thread>
-
-void helloWorld() {
-    for (size_t i{}; i < 5; i++) {
-        std::cout << "Hello World!" << std::endl;
-    }
-}
-
-void goodByeWorld() {
-    for (size_t i{}; i < 5; i++) {
-        std::cout << "Good Bye World!" << std::endl;
-    }
-}
+#include "helloWorld.cpp"
 
 int main()
 {
@@ -24,5 +13,4 @@ int main()
 
     test.join();
     foo.join();
-
 }
